@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/item_send_report"
+        android:icon="@drawable/ic_action_copy"
+        android:showAsAction="ifRoom|withText"
+        android:title="Añadir"
+        android:titleCondensed="Añadir">
+    </item>
+    <item
+        android:id="@+id/item_add_report"
+        android:title="Añadir al reporte"
+        android:icon="@drawable/ic_action_new_event"
+        android:showAsAction="ifRoom|withText"
+        android:titleCondensed="Añadir">
+    </item> 
+
+</menu>

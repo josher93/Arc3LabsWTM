@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    style="@style/LoginFormContainer"
+    android:background="@drawable/bg_gradient" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arc3Labs \n WorkTime Manager"
+        android:gravity="center"
+        android:shadowColor="#2a2a2a"
+        android:shadowRadius="5"
+	    android:shadowDx="5"
+	    android:shadowDy="5"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+    
+        <EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Usuario"
+                android:background="@drawable/login_edittext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:layout_marginTop="16dp"
+                android:padding="10dp"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:imeActionId="@+id/login"
+                android:background="@drawable/login_edittext"
+                android:layout_marginTop="16dp"
+				android:padding="10dp"
+                android:imeOptions="actionUnspecified"
+                android:password="true"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:background="#222222"
+                android:onClick="loginUser"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Aceptar"
+                android:textColor="#FFFFFF" />
+    
+</LinearLayout>

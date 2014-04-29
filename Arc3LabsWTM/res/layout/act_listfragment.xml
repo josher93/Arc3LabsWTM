@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e1e1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        
+        android:layout_height="38dp"
+        android:orientation="horizontal" >
+        
+        <TextView
+        android:id="@+id/tvTituloActs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/all_activities"
+        android:layout_marginLeft="16dp"
+        
+        android:textColor="#009ad2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        <ProgressBar
+            android:id="@+id/loadingProgressBar"
+            android:layout_width="28dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="28dp" />
+    </LinearLayout>
+    
+    
+    <ListView android:id="@+id/activities_fragment_list"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="#FFFFFF"
+               android:layout_weight="1"
+               tools:listitem="@layout/act_itemlist" />
+<!-- 
+     <TextView android:id="@id/android:empty"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="No hay datos"/> -->
+	
+</LinearLayout>

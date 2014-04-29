@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_add_activity"
+          android:icon="@drawable/ic_action_new_event"
+          android:title="Agregar actividad"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/action_todas"
+          android:title="Todas"
+          />
+     <item android:id="@+id/action_pendientes"
+          android:title="Pendientes" />
+     <item android:id="@+id/action_realizadas"
+          android:title="Realizadas" />
+     <item android:id="@+id/action_progreso"
+          android:title="En Progreso"  />
+
+</menu>

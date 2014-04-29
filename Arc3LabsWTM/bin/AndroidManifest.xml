@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.arc3labswtm_android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.arc3labswtm_android.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.AgregarActividadActivity"
+            android:label="@string/title_activity_agregar_actividad" >
+             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arc3labswtm_android.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.AgregarRepEntradaActivity"
+            android:label="@string/title_activity_agregar_rep_entrada" >
+             <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arc3labswtm_android.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.ReporteSalidaActivity"
+            android:label="@string/title_activity_reporte_salida" >
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.DetalleReporteActivity"
+            android:label="@string/title_activity_detalle_reporte" >
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.DetalleActividadActivity"
+            android:label="@string/title_activity_detalle_actividad" >
+              <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arc3labswtm_android.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.arc3labswtm_android.EditaActividadActivity"
+            android:label="@string/title_activity_edita_actividad" >
+               <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.arc3labswtm_android.DetalleActividadActivity" />
+        </activity>
+    </application>
+
+</manifest>

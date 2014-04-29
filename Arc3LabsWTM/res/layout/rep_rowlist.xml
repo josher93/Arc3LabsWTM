@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal" >
+ 	
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="32dp"
+		android:layout_height="32dp"
+		android:gravity="center_vertical"
+    	android:layout_gravity="center_vertical"
+		android:layout_marginLeft="8dp"
+        android:src="@drawable/pendiente" />
+     
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+         android:gravity="center_vertical"
+    	android:layout_gravity="center_vertical"
+        android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/tituloAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        android:text="Test" />
+    <TextView
+	        android:id="@+id/descrAct"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="8dp"
+	        android:textSize="14sp"
+	        android:text="Description de la actividad" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textSize="10sp"
+        android:text="28 FEBRERO"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+</LinearLayout>
+

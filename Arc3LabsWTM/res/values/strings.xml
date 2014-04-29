@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arc3Labs WorkTime Manager</string>
+    <string name="hello_world">Hello world!</string>
+
+   
+	
+    
+     <string name="button_aceptar">Aceptar</string>
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contrasena">Contraseña</string>
+   
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_agregar_actividad">Agregar Actividad</string>
+
+    <!-- Agregar Actividad -->
+    <string name="activity_name">Título de actividad</string>
+    <string name="activity_description">Descripción de actividad</string>
+    <string name="title_home_list">Items</string>
+    <string name="title_home_detail">Home Detail</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_check_updates">Actualizaciones</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="title_activity_main">Página Principal</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">No available</string>
+    <string name="title_activity_principal">Página Principal</string>
+    <string name="all_reports">Todos los Reportes</string>
+
+    <!-- Todas Actividades -->
+    <string name="all_activities">Todas las actividades</string>
+    <string name="title_activity_detalle_reporte">Resumen de Reporte</string>
+
+    <!-- MENUS -->
+    <string-array name="menu_array">
+        <item>ACTIVIDADES</item>
+        <item>REPORTES</item>
+    </string-array>
+
+    <!-- Resumen de Reporte -->
+
+    <string name="datetime_finished">Hora y Fecha:</string>
+    <string name="report_type">Tipo de Reporte:</string>
+    <string name="title_activities">Actividades</string>
+    <string name="title_activity_reporte_entrada">Reporte de Entrada</string>
+    <string name="context_title">Modify Word</string>
+
+    <!-- Spinners -->
+    <string name="estados_prompt">Seleccione...</string>
+
+    <string-array name="estados_array">
+        <item>Pendientes</item>
+        <item>En progreso</item>
+        <item>Realizadas</item>
+    </string-array>
+
+    <string name="proyectos_prompt">Seleccione...</string>
+
+    <string-array name="proyectos_array">
+        <item>Arc3Labs WorkTime Manager</item>
+        <item>Bolsa Nacional de Valores</item>
+        <item>Sistema de Seguros</item>
+    </string-array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_reports">ReportsActivity</string>
+    <string name="title_activity_reporte_salida">Reporte de Salida</string>
+    <string name="title_activity_detalle_actividad">Detalle de Actividad</string>
+    <string name="title_activity_azure">AzureActivity</string>
+    <string name="title_activity_azuree">AzureeActivity</string>
+    <string name="title_activity_prueba_reporte">PruebaReporteActivity</string>
+    <string name="title_activity_reporte">ReporteActivity</string>
+    <string name="title_activity_agregar_rep_entrada">Agregar Reporte de Entrada</string>
+    <string name="categoria_prompt">Seleccione estado</string>
+    <string name="title_activity_edita_actividad">Editar actividad</string>
+    
+</resources>
